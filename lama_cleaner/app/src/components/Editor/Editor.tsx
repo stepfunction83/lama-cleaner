@@ -1111,10 +1111,10 @@ export default function Editor() {
   useHotKey('[', () => {
     setBrushSize(currentBrushSize => {
       if (currentBrushSize > 10) {
-        return currentBrushSize - 10
+        return currentBrushSize - 5
       }
       if (currentBrushSize <= 10 && currentBrushSize > 0) {
-        return currentBrushSize - 5
+        return currentBrushSize - 1
       }
       return currentBrushSize
     })
@@ -1122,7 +1122,7 @@ export default function Editor() {
 
   useHotKey(']', () => {
     setBrushSize(currentBrushSize => {
-      return currentBrushSize + 10
+      return currentBrushSize + 5
     })
   })
 
