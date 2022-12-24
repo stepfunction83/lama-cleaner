@@ -12,7 +12,8 @@ type SliderProps = {
 export default function Slider(props: SliderProps) {
   const { value, onChange, onClick, label, min, max } = props
 
-  const step = ((max || 100) - (min || 0)) / 100
+  // const step = ((max || 100) - (min || 0)) / 100
+  const step = ((50) - (1)) / 100
 
   return (
     <div className="editor-brush-slider">
