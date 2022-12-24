@@ -62,8 +62,8 @@ import InteractiveSegConfirmActions from '../InteractiveSeg/ConfirmActions'
 import InteractiveSegReplaceModal from '../InteractiveSeg/ReplaceModal'
 
 const TOOLBAR_SIZE = 200
-const MIN_BRUSH_SIZE = 10
-const MAX_BRUSH_SIZE = 200
+const MIN_BRUSH_SIZE = 2
+const MAX_BRUSH_SIZE = 60
 const BRUSH_COLOR = '#ffcc00bb'
 
 interface Line {
