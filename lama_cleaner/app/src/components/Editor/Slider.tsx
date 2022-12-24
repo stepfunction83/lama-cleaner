@@ -25,7 +25,8 @@ export default function Slider(props: SliderProps) {
         min=1
 //         max={max}
         max=50
-        value={value}
+<!--         value={value} -->
+        value=10
         onChange={ev => {
           ev.preventDefault()
           ev.stopPropagation()
