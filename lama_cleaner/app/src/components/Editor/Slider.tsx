@@ -20,8 +20,10 @@ export default function Slider(props: SliderProps) {
       <input
         type="range"
         step={step}
-        min={min}
-        max={max}
+<!--         min={min} -->
+        min=1
+//         max={max}
+        max=50
         value={value}
         onChange={ev => {
           ev.preventDefault()
